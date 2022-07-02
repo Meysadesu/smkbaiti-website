@@ -1,5 +1,5 @@
 import { Fragment } from "react"
-//
+
 const LeftComponent = function() {
     return (
         <Fragment>
