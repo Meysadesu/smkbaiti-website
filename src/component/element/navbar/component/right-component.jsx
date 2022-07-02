@@ -11,7 +11,7 @@ const RightComponent = function (){
                         <li><Link to={""}> PROFILE </Link></li>
                         <div id="dropdown-act" className="group">
                             <li> PROGRAM KEAHLIAN </li>
-                            <ul className="absolute hidden group-hover:block bg-white p-[5px] border-box text-slate-900">
+                            <ul className="absolute hidden rounded-sm group-hover:block bg-white p-[5px] border-box text-slate-900">
                                 <li>
                                     <Link to={"/"}>Teknik Komputer dan Jaringan</Link>
                                 </li>

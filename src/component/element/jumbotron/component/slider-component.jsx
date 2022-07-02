@@ -11,16 +11,15 @@ const SliderComponent = function() {
     const [image] = useState([
         {
             id: 1,
-            image: "https://raw.githubusercontent.com/Meysadesu/Meysadesu/main/Tanpa%20judul.png"
+            image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1232&q=80"
         },
         {
             id: 2,
-            image: "https://smkalbasthomi.sch.id/wp-content/uploads/2020/07/56842940_129883998159676_785175842026199691_n-1.jpg",
-
+            image: "https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
         },
         {
             id: 3,
-            image: "https://cdn.kincir.com/2/2fafpZMrKuTUN5DiIJj7d3F5A04JnaH5i5EyssMzLTI/transform/rs:fill:764:400/src/production/2021-02/4ed39ca8cc7f13498ac04f270c14919d.jpg"
+            image: "https://images.unsplash.com/photo-1495727034151-8fdc73e332a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1165&q=80"
         }
     ])
 

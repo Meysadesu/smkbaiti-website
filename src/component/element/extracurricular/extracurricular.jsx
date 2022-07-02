@@ -11,7 +11,7 @@ const Extracurricular = function() {
 	SwiperCore.use([Autoplay]);
 	return(
 		<Fragment>
-			<div id="wrapper" className="w-full h-[700px] flex flex-col justify-center items-center mb-[80px]">
+			<div id="wrapper" className="w-full relative sm:h-[700px] flex flex-col justify-center items-center mb-[80px]">
 				<Header/>
 				<div id="sub-wrapper" className="w-full sm:w-[60%] sm:h-[500px] m-auto relative p-[10px] border-box rounded-[10px]">
 					<Swiper

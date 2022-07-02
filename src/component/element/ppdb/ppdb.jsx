@@ -33,7 +33,7 @@ const LeftSideComponent =function() {
 const RightSideComponent =function() {
 	return (
 		<Fragment>
-			<div id="right-side-component" className="w-[40%] h-full rounded-[10px] p-[10px] border-box bg-green bg-cover bg-no-repeat hidden sm:block" style={{ backgroundImage : 'url()'}}></div>	
+			<div id="right-side-component" className="w-[40%] h-full relative rounded-[10px] p-[10px] border-box bg-green bg-cover bg-no-repeat hidden sm:block" style={{ backgroundImage : 'url(https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80)'}}></div>	
 		</Fragment>
 	)
 }

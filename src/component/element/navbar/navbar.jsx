@@ -5,10 +5,10 @@ import RightComponent from "./component/right-component"
 const Navbar = function() {
     return (
         <Fragment>
-            <div id="container-navbar" className=" text-white z-30 h-[95px] sm:relative sm:w-full">
+            <div id="container-navbar" className=" text-white z-30 h-[95px] relative sm:w-full">
                 <div id="sub-container-navbar" className="w-[100%] sm:w-[80%] h-full m-auto flex justify-between">
                 	<LeftComponent/>
-                    	<RightComponent/>
+                    <RightComponent/>
                 </div>
             </div>
         </Fragment>
