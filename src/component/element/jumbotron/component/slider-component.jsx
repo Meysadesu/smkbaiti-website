@@ -34,8 +34,7 @@ const SliderComponent = function() {
                     disableOnInteraction: false}}>
                         {image.map((img) => {
                             return <SwiperSlide>
-                                        <div id="background-image-cover" className="w-[100vw] h-[100vh] bg-cover bg-no-repeat" style={{ backgroundImage : `url(${img.image})`}}>
-                                        </div>
+                                        <div id="background-image-cover" className="w-[100vw] h-[100vh] bg-cover bg-no-repeat" style={{ backgroundImage : `url(${img.image})`}}></div>
                                     </SwiperSlide>
                             })}
                 </Swiper>

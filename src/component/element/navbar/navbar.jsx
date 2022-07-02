@@ -5,8 +5,8 @@ import RightComponent from "./component/right-component"
 const Navbar = function() {
     return (
         <Fragment>
-            <div id="container-navbar" className=" text-white z-30 h-[95px] relative sm:w-full">
-                <div id="sub-container-navbar" className="w-[100%] sm:w-[80%] h-full m-auto flex justify-between">
+            <div id="container-navbar" className=" text-white z-30 h-[80px] lg:h-[95px] relative lg:w-full">
+                <div id="sub-container-navbar" className="w-full lg:w-[80%] h-full m-auto flex justify-between">
                 	<LeftComponent/>
                     <RightComponent/>
                 </div>

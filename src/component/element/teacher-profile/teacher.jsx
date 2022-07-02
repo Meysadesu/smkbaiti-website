@@ -8,16 +8,16 @@ const TeacherProfile = function() {
 
 	return(
 		<Fragment>
-			<div id="wrapper-for-teacher-profile" className="w-full h-full relative p-[10px] border-box mb-[80px] mt-7 sm:mt-0">
-				<div id="sub-wrapper-for-teacher-profile" className="w-[90%] sm:w-[60%] m-auto h-full p-[10px] border-box">
-					<p id="Header" className="font-poppins text-[30px] sm:text-[35px] sm:ml-[20px] mb-[30px]">Data informasi guru</p>
+			<div id="wrapper-for-teacher-profile" className="w-full h-full relative lg:p-[10px] border-box mb-[80px] mt-7 lg:mt-0">
+				<div id="sub-wrapper-for-teacher-profile" className="w-[90%] lg:w-[60%] m-auto h-full p-[10px] border-box">
+					<p id="Header" className="font-poppins text-[30px] lg:text-[35px] lg:ml-[20px] mb-[30px]">Data informasi guru</p>
 					<div id="main-content-for-teacher-profile" className="w-full h-full">
 						<CardComponent id={dataTeacher.id} name={dataTeacher.name} jobs={dataTeacher.jobs} image={dataTeacher.image} description={dataTeacher.description}/>	
-						<div id="wrapper-for-list-teacher" className="w-full sm:w-[95%] m-auto h-[150px] flex mt-7 sm:mt-4 sm:p-[10px] border-box overflow-auto">
+						<div id="wrapper-for-list-teacher" className="w-full lg:w-[95%] m-auto h-[150px] flex mt-7 lg:mt-4 lg:p-[10px] border-box overflow-auto">
 							<div className="w-[100000px] flex">	
 								{
 									TeacherData.map(data => {
-										return <div id="image" className=" h-[90px] sm:h-[120px] w-[90px] bg-cover bg-no-repeat sm:w-[120px] rounded-[10px] bg-green mr-3" style={{ backgroundImage: `url(${data.image})` }} onClick={ () => setDataTeacher(TeacherData[data.id])}></div>
+										return <div id="image" className=" h-[90px] lg:h-[120px] w-[90px] bg-cover bg-no-repeat lg:w-[120px] rounded-[10px] bg-green mr-3" style={{ backgroundImage: `url(${data.image})` }} onClick={ () => setDataTeacher(TeacherData[data.id])}></div>
 									})
 								}
 							</div>

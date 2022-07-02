@@ -5,7 +5,7 @@ const RightComponent = function() {
     return(
         <Fragment>
             <div id="right-section"
-                 className="w-[40%] h-full relative z-50 sm:flex items-end hidden">
+                 className="w-[40%] h-full relative z-50 lg:flex items-end hidden">
                 <PeopleComponent/>
             </div>
         </Fragment>

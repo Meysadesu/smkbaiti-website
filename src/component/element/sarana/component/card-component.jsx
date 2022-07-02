@@ -4,7 +4,7 @@ import { ChatLeftDotsFill } from "react-bootstrap-icons"
 const CardComponent = function(props) {
     return(
         <Fragment>
-            <div id="body-card" className="w-[300px] m-auto mb-3 sm:mb-0 sm:w-[230px] h-[350px] bg-[#F6F6F6] rounded-2xl text-center">
+            <div id="body-card" className="w-[300px] m-auto mb-3 lg:mb-0 lg:w-[230px] h-[350px] bg-[#F6F6F6] rounded-2xl text-center">
                 <ChatLeftDotsFill fontSize={65} className="m-auto opacity-50 mt-7 mb-7"/>
                 <h1 className=" text-[22px] font-poppins text-green">
                     FAST RESPONSE
