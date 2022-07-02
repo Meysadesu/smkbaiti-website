@@ -21,7 +21,7 @@ const LeftSideComponent =function() {
 				<p id="ppdb-warning" className="font-poppins text-[45px]">
 					!Perhatian
 				</p>
-				<p id="header" className="font-poppins mb-16 text-[60px] text-green">
+				<p id="header" className="font-poppins mb-16 text-[50px] sm:text-[60px] text-green">
 	    				PENERIMAAN PESERTA DIDIK BARU DIBUKAAAA
 	    			</p>
 				<ButtonComponent/>	
