@@ -16,7 +16,7 @@ const JumbotronComponent = function() {
     return (
         <Fragment>
             <div id="wrapper" className="w-full h-[100vh] bg-green relative mt-[-98px]">
-                <div id="sub" className="h-full w-[80%] m-auto flex">
+                <div id="sub" className="h-full w-[90%] lg:w-[80%] m-auto flex">
                     <LeftSide/>
                     <RightSide/>
                 </div>

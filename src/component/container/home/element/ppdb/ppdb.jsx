@@ -5,10 +5,10 @@ const PPDB = function() {
     return (
         <Fragment>
             <div id="wrapper-section-ppdb" className="relative w-full h-full lg:h-[600px] mb-[100px]">
-		<div id="sub-wrapper-for-ppdb" className="w-full lg:w-[65%] h-full  m-auto lg:p-[20px] border-box flex justify-around items-center">
-			<LeftSideComponent/>
-	    		<RightSideComponent/>
-	    	</div>
+				<div id="sub-wrapper-for-ppdb" className="w-full lg:w-[65%] h-full m-auto lg:p-[20px] border-box flex justify-around items-center">
+					<LeftSideComponent/>
+	    			<RightSideComponent/>
+	    		</div>
             </div>
         </Fragment>
     )
