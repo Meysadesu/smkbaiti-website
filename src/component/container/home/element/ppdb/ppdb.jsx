@@ -24,7 +24,7 @@ const LeftSideComponent =function() {
 				<p id="header" className="font-poppins mb-16 text-[50px] lg:text-[60px] text-green">
 	    			PENERIMAAN PESERTA DIDIK BARU DIBUKAAAA
 	    		</p>
-				<ButtonComponent/>	
+				<ButtonComponent path="/smk/ppdb"/>	
 		    </div>	
 		</Fragment>
 	)
