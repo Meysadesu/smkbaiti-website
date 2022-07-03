@@ -1,11 +1,16 @@
-import {Fragment, useState} from "react"
+import {Fragment, useState, useEffect} from "react"
 import CardComponent from "./component/card-component"
 import { TeacherData } from "./untils/untils"
+import Aos from "aos"
+import 'aos/dist/aos.css'
 
 const TeacherProfile = function() {
-
+	useEffect(()=>{
+        Aos.init({
+            duration: 1000
+        })
+    },[])
 	const [dataTeacher, setDataTeacher] = useState(TeacherData[0])
-
 	return(
 		<Fragment>
 			<div id="wrapper-for-teacher-profile" className="w-full h-full relative lg:p-[10px] border-box mb-[80px] mt-7 lg:mt-0">
@@ -17,7 +22,7 @@ const TeacherProfile = function() {
 							<div className="w-[100000px] flex">	
 								{
 									TeacherData.map(data => {
-										return <div id="image" className=" h-[90px] lg:h-[120px] w-[90px] bg-cover bg-no-repeat lg:w-[120px] rounded-[10px] bg-green mr-3" style={{ backgroundImage: `url(${data.image})` }} onClick={ () => setDataTeacher(TeacherData[data.id])}></div>
+										return <div id="image" data-aos="fade-up" className=" h-[90px] lg:h-[120px] w-[90px] bg-cover bg-no-repeat lg:w-[120px] rounded-[10px] bg-green mr-3" style={{ backgroundImage: `url(${data.image})` }} onClick={ () => setDataTeacher(TeacherData[data.id])}></div>
 									})
 								}
 							</div>

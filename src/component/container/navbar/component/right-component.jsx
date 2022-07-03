@@ -13,7 +13,7 @@ const RightComponent = function (){
                             <li> PROGRAM KEAHLIAN </li>
                             <ul className="absolute hidden rounded-lg group-hover:block bg-white p-[5px] border-box text-slate-900">
                                 <li>
-                                    <Link to={"/"}>Teknik Komputer dan Jaringan</Link>
+                                    <Link to={"/smk/tkj"}>Teknik Komputer dan Jaringan</Link>
                                 </li>
                                 <li>
                                     <Link to={"/"}>Agribisnis Pengelolahan Hasil Pertanian</Link>

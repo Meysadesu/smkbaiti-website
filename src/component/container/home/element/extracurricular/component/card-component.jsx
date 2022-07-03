@@ -1,7 +1,13 @@
-import {Fragment} from "react"
-//import ButtonComponent from "../../button/button"
+import {Fragment, useEffect} from "react"
+import Aos from "aos"
+import 'aos/dist/aos.css'
 
 const CardComponent = function(props) {
+	useEffect(()=>{
+        Aos.init({
+            duration: 500
+        })
+    },[])
 	return (
 		<Fragment>
 			<div id="wrapper-card" className="relative m-auto lg:m-0 flex flex-col items-center justify-center w-full h-full lg:flex-row">
@@ -15,7 +21,7 @@ const CardComponent = function(props) {
 const LeftSideComponent = function(props){
 	return (
 		<Fragment>
-			<div id="container-side-left" className="w-full lg:w-[30%]"> 	
+			<div id="container-side-left"  data-aos="fade-right" className="w-full lg:w-[30%]"> 	
 				<div id="image-cover" className="w-[95%] m-auto rounded-[10px] h-[250px] lg:h-[483px] bg-cover bg-no-repeat" style={{backgroundImage : `url(${props.image})`}}>
 				</div>
 			</div>
@@ -26,7 +32,7 @@ const LeftSideComponent = function(props){
 const RightSideComponent = function(props) {
 	return (
 		<Fragment>
-			<div id="container-side-right" className="w-full lg:w-[70%] p-[20px] h-[150px]x] lg:h-[483px] border-box rounded-[10px]"> 	
+			<div id="container-side-right"  data-aos="fade-left" className="w-full lg:w-[70%] p-[20px] h-[150px]x] lg:h-[483px] border-box rounded-[10px]"> 	
 				<p className="text-[30px] font-poppins">Ektrakulikuler :</p>
 				<p id="header" className="text-[35px] font-poppins text-green mb-3">
 					{props.extra}

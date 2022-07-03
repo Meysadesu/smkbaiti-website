@@ -11,7 +11,7 @@ const Jumbotron = function() {
                     <LeftComponent/>
                     <RightComponent/>
                 </div>
-                <div className="absolute z-[30] w-full h-full bg-black opacity-30"></div>
+                <div className="absolute z-[30] w-full h-[100vh] bg-black opacity-50"></div>
                 <SliderComponent/>
             </div>
         </Fragment>
