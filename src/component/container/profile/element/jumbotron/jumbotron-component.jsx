@@ -17,7 +17,7 @@ const LeftSide = function() {
     return(
         <Fragment>
             <div id="left-side" className=" w-full lg:w-[50%] h-full bg-green p-[20px] flex flex-col justify-center box-border">
-                <p className="text-[30px] mt-9  lg:ml-[150px] text-white font-poppins">PROFILE</p>
+                <p className="text-[40px] mt-9  lg:ml-[150px] text-white font-poppins">PROFILE</p>
                 <p className=" font-poppins w-[80%] lg:ml-[150px] text-[90px] lg:text-[130px] text-white">SMK BAITUL ATIEQ</p>
             </div>
         </Fragment>

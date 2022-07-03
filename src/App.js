@@ -4,6 +4,7 @@ import Home from "./component/container/home/home"
 import Profile from "./component/container/profile/profile"
 import Navbar from "./component/container/navbar/navbar"
 import Footer from "./component/container/footer/footer"
+import PPDB from "./component/container/ppdb/ppdb"
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
       		<Routes>
 	 			<Route  path="/" exact element={<Home></Home>}></Route>
 	 			<Route path="/smk/profile" element={<Profile></Profile>}></Route>
+	 			<Route path="/smk/ppdb" element={<PPDB></PPDB>}></Route>
       		</Routes>
 			<Footer/>
 		</Fragment>

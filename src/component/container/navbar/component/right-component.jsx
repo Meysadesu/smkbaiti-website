@@ -23,7 +23,7 @@ const RightComponent = function (){
                                 </li>
                             </ul>
                         </div>
-                        <li><Link to={""}> PPDB </Link></li>
+                        <li><Link to={"/smk/ppdb"}> PPDB </Link></li>
                         <div id="container-section-sosial-media" className="w-[20%] hidden lg:flex h-full justify-around items-center opacity-60">
                             <li><Link to={""}><Facebook size={25}></Facebook></Link></li>
                             <li><Link to={""}><Instagram size={25}></Instagram></Link></li>
