@@ -9,7 +9,7 @@ const VisiMisi = function() {
                         <p id="header" className="text-center font-poppins text-green text-[40px]">
                             VISI
                         </p>
-                        <p id="ctx" className=" w-[90%] lg:w-[80%] m-auto opacity-50">
+                        <p id="ctx" className=" w-[90%] lg:w-[80%] m-auto opacity-50 font-open-sans">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia dui at efficitur fringilla. Donec egestas mollis iaculis. In suscipit neque eu dignissim lacinia. Nunc condimentum nisi vel vehicula lacinia. Etiam nec felis sed dui ornare auctor. Fusce lacinia ipsum purus, sed aliquet sapien lacinia sit amet. Sed id massa non lacus sollicitudin maximus non a elit. Sed euismod urna eget auctor semper.
                         </p>
                     </div>
@@ -17,7 +17,7 @@ const VisiMisi = function() {
                         <p id="header" className="text-center font-poppins text-green text-[40px]">
                             MISI
                         </p>
-                        <p id="ctx" className=" w-[90%] lg:w-[80%] m-auto opacity-50">
+                        <p id="ctx" className=" w-[90%] lg:w-[80%] m-auto opacity-50 font-open-sans">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia dui at efficitur fringilla. Donec egestas mollis iaculis. In suscipit neque eu dignissim lacinia. Nunc condimentum nisi vel vehicula lacinia. Etiam nec felis sed dui ornare auctor. Fusce lacinia ipsum purus, sed aliquet sapien lacinia sit amet. Sed id massa non lacus sollicitudin maximus non a elit. Sed euismod urna eget auctor semper.
                         </p>
                     </div>
@@ -26,7 +26,7 @@ const VisiMisi = function() {
                     <p id="header" className="text-center font-poppins text-green text-[40px]">
                         TUJUAN
                     </p>
-                    <p id="ctx" className="w-[90%] m-auto lg:w-[50%] opacity-50">
+                    <p id="ctx" className="w-[90%] m-auto lg:w-[50%] opacity-50 font-open-sans">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia dui at efficitur fringilla. Donec egestas mollis iaculis. In suscipit neque eu dignissim lacinia. Nunc condimentum nisi vel vehicula lacinia. Etiam nec felis sed dui ornare auctor. Fusce lacinia ipsum purus, sed aliquet sapien lacinia sit amet. Sed id massa non lacus sollicitudin maximus non a elit. Sed euismod urna eget auctor semper.
                     </p>
                 </div>

@@ -7,10 +7,6 @@ const Pendiri = function () {
                 <div id="wrapper" className="h-full w-full">
                         <div id="sub" className="h-full  lg:mt-[80px] w-full lg:w-[70%] m-auto">
                             <CardComponent id={1}/>
-                            <CardComponent id={2}/>
-                            <CardComponent id={1}/>
-                            <CardComponent id={4}/>
-                            <CardComponent id={1}/>
                         </div>
                 </div>
             </Fragment>        

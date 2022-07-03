@@ -11,7 +11,6 @@ const Profile = function() {
                 <JumbotronComponent/>
                 <Pendiri/>
                 <VisiMisi/>
-                
             </div>
         </Fragment>
     )
