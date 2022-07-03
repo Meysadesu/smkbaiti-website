@@ -24,7 +24,7 @@ const PPDB = function() {
 const LeftSideComponent =function() {
 	return (
 		<Fragment>
-			<div id="left-side-component" data-aos="fade-right" className=" w-[95%] m-auto lg:m-0 lg:w-[40%] p-[10px] border-box">
+			<div id="left-side-component" data-aos="fade-right" className=" w-[95%] overflow-hidden m-auto lg:m-0 lg:w-[40%] p-[10px] border-box">
 				<p id="ppdb-warning" className="font-poppins text-[45px]">
 					!Perhatian
 				</p>

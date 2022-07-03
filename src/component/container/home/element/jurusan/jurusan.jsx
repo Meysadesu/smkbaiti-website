@@ -6,7 +6,7 @@ const Jurusan = function() {
     return (
         <Fragment>
             <div id="wrapper" className="w-full h-full relative">
-	    	    <div className="w-full lg:w-[70%] m-auto mb-[80px]">
+	    	    <div className="w-[100vw] overflow-hidden lg:w-[70%] m-auto mb-[80px]">
 		    	{JurusanData.map((e) => {
 					    return <CardComponent 
                                     id={e.id}
