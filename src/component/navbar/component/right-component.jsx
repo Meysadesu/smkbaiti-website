@@ -16,10 +16,10 @@ const RightComponent = function (){
                                     <Link to={"/smk/tkj"}>Teknik Komputer dan Jaringan</Link>
                                 </li>
                                 <li>
-                                    <Link to={"/"}>Agribisnis Pengelolahan Hasil Pertanian</Link>
+                                    <Link to={"/smk/aphp"}>Agribisnis Pengelolahan Hasil Pertanian</Link>
                                 </li>
                                 <li>
-                                    <Link to={"/"}>Teknik Kendaraan Ringan</Link>
+                                    <Link to={"/smk/tkr"}>Teknik Kendaraan Ringan</Link>
                                 </li>
                             </ul>
                         </div>

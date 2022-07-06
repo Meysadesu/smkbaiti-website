@@ -1,11 +1,12 @@
 import { Fragment } from "react"
 import { Route, Routes } from "react-router-dom"
-import Home from "./component/index/home"
-import Profile from "./component/profile/profile"
+import Home from "./pages/index/home"
+import Profile from "./pages/profile/profile"
 import Navbar from "./component/navbar/navbar"
 import Footer from "./component/footer/footer"
-import PPDB from "./component/ppdb/ppdb"
-import Majorpage from "./component/major/major"
+import PPDB from "./pages/ppdb/ppdb"
+import Majorpage from "./pages/major/major"
+import { MAJOR } from "./majordata"
 
 function App() {
 	return (
@@ -15,7 +16,11 @@ function App() {
 	 			<Route  path="/" exact element={<Home></Home>}></Route>
 	 			<Route path="/smk/profile" element={<Profile></Profile>}></Route>
 	 			<Route path="/smk/ppdb" element={<PPDB></PPDB>}></Route>
-	 			<Route path="/smk/tkj" element={<Majorpage></Majorpage>}></Route>
+	 			{
+	 				MAJOR.map(e => {
+	 					return <Route path={e.path} element={<Majorpage name={e.name} whatis={e.whatis} tujuan={e.tujuan}></Majorpage>}></Route>
+	 				})
+	 			}
       		</Routes>
 			<Footer/>
 		</Fragment>

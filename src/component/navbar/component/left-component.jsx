@@ -1,5 +1,5 @@
 import { Fragment } from "react"
-const logo = require('../../image/logo512.png')
+const logo = require('../../../image/logo512.png')
 
 const LeftComponent = function() {
     return (
